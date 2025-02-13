@@ -16,5 +16,5 @@ c=True
 
 echo a=$a
 echo b=${b}
-ech c=$c
+echo c=$c
 
