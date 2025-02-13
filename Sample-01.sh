@@ -15,4 +15,4 @@ b=Apple
 c=True
 
 echo a=$a
-b=${b}
+echo b=${b}
