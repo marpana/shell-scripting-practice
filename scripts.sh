@@ -22,4 +22,14 @@ echo "**************************"
 sudo yum install net-tools
 netstat -tuln
 
+echo "CPU Usage--"
+echo "*****************************"
+echo $(top -bn1 | grep "Cpu(s)" | awk '{print $2'})%
+
+
+echo "Disk Usage"
+echo "*****************************"
+echo $(df -h | awk '/\//{print $4}') available
+
+
 
