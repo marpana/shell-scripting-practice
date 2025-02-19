@@ -22,3 +22,4 @@ echo "**************************"
 sudo yum install net-tools
 netstat -tuln
 
+
