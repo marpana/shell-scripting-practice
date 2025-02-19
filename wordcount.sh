@@ -8,3 +8,4 @@ if [ $line_count -eq 1 ]; then
     else
       echo "Found no line with word example"
   fi
+
